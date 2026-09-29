@@ -1,0 +1,10 @@
+LINE build on BITS HPC (node1), 2026-09-23
+Source: TheJacksonLaboratory/sci, LINE/line.cpp (SCI's modified LINE, supports -order 3)
+Location: /scratch/adas/genome-analysis/sci/LINE/line_hpc
+Conda env: linebuild (conda-forge gxx_linux-64 gcc 16.2.0, gsl, sysroot_linux-64=2.28)
+Compile:
+  source activate linebuild
+  $CXX -O3 -funroll-loops -ffast-math -Wno-unused-result -pthread line.cpp -o line_hpc \
+    -I$CONDA_PREFIX/include -L$CONDA_PREFIX/lib -Wl,-rpath,$CONDA_PREFIX/lib -lgsl -lgslcblas -lm
+Defaults used by SCI (not overridden): size=100, negative=5, rho=0.025, threads=1
+SCI calls: -order 1 -samples N and -order 2 -samples N, then concatenates (mode "both")

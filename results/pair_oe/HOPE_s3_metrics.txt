@@ -1,0 +1,27 @@
+embedding files: results/gm12878_interkr_oe/gm12878_INTERKR_OE_hope_katz.embedding
+nodes clustered: 26743, dims: 100, k=5, seed=3, n_init=100, l2=True
+cluster sizes: [6914, 4003, 3825, 6026, 5975]
+kmeans inertia: 12781.4020
+silhouette (euclidean): 0.091199
+davies-bouldin: 2.689540
+vs Rao A1-B3 (26226 nodes): ARI=0.6165 NMI=0.6253
+vs SCI published (26226 nodes): ARI=0.3504 NMI=0.4075
+REFERENCE published SCI vs Rao (26226 bins): ARI=0.5027 NMI=0.5668
+
+Clusters vs Rao (A1-B3 nodes):
+rao        A1    A2    B1    B2    B3
+cluster                              
+0           0    69    22   388  6425
+1        3552   251   107     0     0
+2         223   481  2792    80   166
+3         231  4994   272    45   414
+4           0    19   301  3844  1550
+
+Clusters vs SCI published:
+sci_pub    C1    C2    C3    C4    C5
+cluster                              
+0          18    71    29  2187  4599
+1        2803   714   361    32     0
+2         514   590  2377   120   141
+3         959  3819   578   279   321
+4          79   201   245  3047  2142

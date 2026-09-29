@@ -1,0 +1,15 @@
+norm: KRnorm
+pairs processed: 231
+RAWobserved entries read: 294568683
+dropped (beyond chrom length): 0
+dropped (NaN/inf/zero after norm): 16116
+duplicate cells summed: 0
+cells with value > 0: 294552567
+cells with value >= 0.5: 294551517
+cells with value >= 1: 276028966
+cells with value >= 2: 204253812
+cells with value >= 5: 62360919
+cells with value >= 10: 10938409
+undirected edges (value >= 1): 276028966
+directed edges written: 552057932
+nodes with >= 1 edge: 26977 of 28823

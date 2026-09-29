@@ -1,0 +1,16 @@
+Directory: results/gm12878_interkr_oe/eval
+NMI(label, chromosome) on Rao A1-B3 bins; lowest-inertia seed per method
+
+Method                                   seed   NMI(chr)  min-max seeds
+------------------------------------------------------------------------
+LINE - paper settings (25M, SCI merge)      1     0.0234    0.023-0.024
+LINE - order 1 only (1000M)                 2     0.0476    0.048-0.048
+LINE - 1000M, per-order L2                  3     0.0603    0.060-0.060
+Weighted DeepWalk                           1     0.0284    0.028-0.029
+HOPE (Katz)                                 1     0.0524    0.052-0.052
+DeepWalk + HOPE (L2 each)                   1     0.0495    0.049-0.049
+------------------------------------------------------------------------
+Rao labels (reference)                            0.1002               
+Published SCI labels (reference)                  0.0350        n=26226
+
+bins used: 26226

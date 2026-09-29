@@ -1,0 +1,9 @@
+chr20-chr21: archive entries 204066 | demo entries 6103 | archive entries found in demo 6103
+   values agree (|diff|<1e-5) among found: 0.9998
+   fraction of archive entries in demo, by raw count: {'1': 0.03, '2': 0.03, '3': 0.03, '4': 0.03, '5': 0.029, '6-9': 0.03, '10+': 0.03}
+chr21-chr22: archive entries 118601 | demo entries 3571 | archive entries found in demo 3571
+   values agree (|diff|<1e-5) among found: 0.9994
+   fraction of archive entries in demo, by raw count: {'1': 0.03, '2': 0.032, '3': 0.028, '4': 0.028, '5': 0.034, '6-9': 0.031, '10+': 0.029}
+chr19-chr22: archive entries 193479 | demo entries 5802 | archive entries found in demo 5802
+   values agree (|diff|<1e-5) among found: 1.0000
+   fraction of archive entries in demo, by raw count: {'1': 0.029, '2': 0.033, '3': 0.029, '4': 0.03, '5': 0.03, '6-9': 0.03, '10+': 0.03}

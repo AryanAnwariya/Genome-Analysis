@@ -1,0 +1,27 @@
+embedding files: results/gm12878_kr0/gm12878_KR0_order_1_samples_25M.embedding, results/gm12878_kr0/gm12878_KR0_order_2_samples_25M.embedding
+nodes clustered: 26977, dims: 200, k=5, seed=2, n_init=100, l2=True
+cluster sizes: [4783, 5445, 6797, 4692, 5260]
+kmeans inertia: 13135.1053
+silhouette (euclidean): 0.007872
+davies-bouldin: 9.324644
+vs Rao A1-B3 (26226 nodes): ARI=0.1619 NMI=0.2184
+vs SCI published (26226 nodes): ARI=0.1306 NMI=0.1665
+REFERENCE published SCI vs Rao (26226 bins): ARI=0.5027 NMI=0.5668
+
+Clusters vs Rao (A1-B3 nodes):
+rao        A1    A2   B1    B2    B3
+cluster                             
+0         116  1241  846   701  1715
+1           4   228  363  2136  2492
+2        3504  2111  846    30   190
+3         366  1627  999   423  1122
+4          16   607  440  1067  3036
+
+Clusters vs SCI published:
+sci_pub    C1    C2    C3    C4    C5
+cluster                              
+0         368  1053   787  1016  1395
+1          99   280   314  2190  2340
+2        3107  2172  1104   165   133
+3         628  1359   987   641   922
+4         171   531   398  1653  2413

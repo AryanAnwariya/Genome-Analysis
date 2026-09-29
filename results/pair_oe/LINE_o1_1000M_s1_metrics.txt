@@ -1,0 +1,27 @@
+embedding files: results/gm12878_interkr_oe/gm12878_INTERKR_OE_order_1_samples_1000M.embedding
+nodes clustered: 26743, dims: 100, k=5, seed=1, n_init=100, l2=True
+cluster sizes: [2099, 18017, 1719, 2348, 2560]
+kmeans inertia: 21193.5316
+silhouette (euclidean): 0.089253
+davies-bouldin: 2.244261
+vs Rao A1-B3 (26226 nodes): ARI=0.0989 NMI=0.3477
+vs SCI published (26226 nodes): ARI=0.0424 NMI=0.1978
+REFERENCE published SCI vs Rao (26226 bins): ARI=0.5027 NMI=0.5668
+
+Clusters vs Rao (A1-B3 nodes):
+rao        A1    A2    B1    B2    B3
+cluster                              
+0           0     1    13  1753   258
+1        1418  4306  3455  2570  5825
+2          68  1493     0     0   158
+3           0     0     0    34  2314
+4        2520    14    26     0     0
+
+Clusters vs SCI published:
+sci_pub    C1    C2    C3    C4    C5
+cluster                              
+0          23    64    12  1288   638
+1        2117  3821  3249  3554  4833
+2         267  1131   128    80   113
+3           0     1     0   728  1619
+4        1966   378   201    15     0

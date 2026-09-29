@@ -1,0 +1,11 @@
+bins: 26226
+Embedding                        | silh SCI silh Rao  ratio |   DB SCI   DB Rao  ratio
+INTERKR LINE order 3             |  -0.0214   0.0677  -0.32 |   19.895    5.685   3.50
+INTERKR LINE 1+2 concatenated    |  -0.0077  -0.0101   0.76 |   56.490   33.875   1.67
+INTERKR LINE 1+2 per-order L2    |  -0.0004   0.0035  -0.12 |   27.602   14.131   1.95
+INTERKR LINE order 1 only        |  -0.0004   0.0035  -0.12 |   27.582   14.120   1.95
+INTERKR weighted DeepWalk        |  -0.0113   0.0487  -0.23 |   15.922    8.123   1.96
+INTERKR HOPE                     |   0.0139   0.0697   0.20 |    6.711    3.125   2.15
+Pair-O/E LINE order 3            |  -0.0284   0.0738  -0.38 |    9.126    2.978   3.06
+Pair-O/E weighted DeepWalk       |   0.0166   0.1472   0.11 |    4.849    1.966   2.47
+Pair-O/E HOPE                    |   0.0161   0.0815   0.20 |    6.263    2.887   2.17

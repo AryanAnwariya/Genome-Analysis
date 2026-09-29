@@ -1,0 +1,15 @@
+norm: GWKRnorm
+pairs processed: 231
+RAWobserved entries read: 294568683
+dropped (beyond chrom length): 0
+dropped (NaN/inf/zero after norm): 12503
+duplicate cells summed: 0
+cells with value > 0: 294556180
+cells with value >= 0.5: 294551897
+cells with value >= 1: 277995813
+cells with value >= 2: 206613334
+cells with value >= 5: 59019177
+cells with value >= 10: 7281485
+undirected edges (value >= 1): 277995813
+directed edges written: 555991626
+nodes with >= 1 edge: 26979 of 28823

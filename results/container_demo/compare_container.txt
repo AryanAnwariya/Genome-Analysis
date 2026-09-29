@@ -1,0 +1,16 @@
+labelled bins: fresh run 26977 | saved run 26977 | published 26226 | Rao A1-B3 26226
+cluster sizes fresh: [10283, 8444, 8247, 2, 1]
+cluster sizes saved: [6007, 5537, 5511, 5431, 4491]
+fresh run vs saved run             bins  26977  ARI 0.0033  NMI 0.0041
+fresh run vs published SCI         bins  26226  ARI 0.0100  NMI 0.0126
+saved run vs published SCI         bins  26226  ARI 0.0021  NMI 0.0031
+fresh run vs Rao A1-B3             bins  26226  ARI 0.0110  NMI 0.0150
+saved run vs Rao A1-B3             bins  26226  ARI 0.0030  NMI 0.0042
+published SCI vs Rao (reference)   bins  26226  ARI 0.5027  NMI 0.5668
+
+fresh run (rows) vs published (columns):
+sci_pub    C1    C2    C3    C4    C5
+row_0                                
+1.0      2234  2451  1518  1665  2135
+2.0      1110  1574  1082  1970  2483
+4.0      1029  1370   990  2030  2585

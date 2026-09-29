@@ -1,0 +1,13 @@
+# large or rebuildable files (see README for how to regenerate)
+*.embedding
+*_HiC_graph.txt
+*.sif
+*.bigWig
+*.hic
+*.tar.gz
+*.bed.gz
+*.txt.gz
+line_hpc
+data/
+__pycache__/
+*.pyc

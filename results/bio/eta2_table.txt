@@ -1,0 +1,40 @@
+read track RepliTiming
+read track H3K27me3
+read track H3K9me3
+read track H3K4me3
+evaluation bins: 26226; non-missing signal per track: RepliTiming=26226, H3K27me3=26226, H3K9me3=26226, H3K4me3=26226
+shuffled-label sanity (mean raw eta2 over 100): RepliTiming=0.00016, H3K27me3=0.00018, H3K9me3=0.00017, H3K4me3=0.00017
+
+RAW eta-squared (share of signal variance explained by the labels)
+    graph                      clustering  RepliTiming  H3K27me3  H3K9me3  H3K4me3
+reference                      Rao labels        0.647     0.013    0.002    0.035
+reference            Published SCI labels        0.582     0.008    0.000    0.026
+reference Chromosome as label (22 groups)        0.081     0.004    0.002    0.006
+  INTERKR             LINE paper settings        0.130     0.000    0.000    0.007
+  INTERKR         LINE 1000M per-order L2        0.540     0.012    0.002    0.033
+  INTERKR               Weighted DeepWalk        0.703     0.009    0.000    0.031
+  INTERKR                     HOPE (Katz)        0.568     0.000    0.003    0.025
+  INTERKR                 DeepWalk + HOPE        0.632     0.003    0.002    0.028
+ Pair-O/E             LINE paper settings        0.479     0.004    0.000    0.028
+ Pair-O/E         LINE order 1 only 1000M        0.398     0.007    0.004    0.030
+ Pair-O/E         LINE 1000M per-order L2        0.642     0.017    0.005    0.041
+ Pair-O/E               Weighted DeepWalk        0.712     0.012    0.000    0.034
+ Pair-O/E                     HOPE (Katz)        0.638     0.019    0.002    0.037
+ Pair-O/E                 DeepWalk + HOPE        0.654     0.015    0.002    0.036
+
+WITHIN-CHROMOSOME eta-squared (signal centred per chromosome first)
+    graph                      clustering  RepliTiming  H3K27me3  H3K9me3  H3K4me3
+reference                      Rao labels        0.581     0.012    0.002    0.029
+reference            Published SCI labels        0.516     0.007    0.000    0.021
+reference Chromosome as label (22 groups)        0.000     0.000    0.000    0.000
+  INTERKR             LINE paper settings        0.110     0.000    0.000    0.005
+  INTERKR         LINE 1000M per-order L2        0.466     0.011    0.002    0.027
+  INTERKR               Weighted DeepWalk        0.639     0.009    0.001    0.024
+  INTERKR                     HOPE (Katz)        0.514     0.000    0.002    0.020
+  INTERKR                 DeepWalk + HOPE        0.571     0.003    0.002    0.021
+ Pair-O/E             LINE paper settings        0.422     0.004    0.000    0.022
+ Pair-O/E         LINE order 1 only 1000M        0.373     0.006    0.004    0.024
+ Pair-O/E         LINE 1000M per-order L2        0.595     0.016    0.004    0.034
+ Pair-O/E               Weighted DeepWalk        0.662     0.011    0.000    0.028
+ Pair-O/E                     HOPE (Katz)        0.582     0.018    0.002    0.031
+ Pair-O/E                 DeepWalk + HOPE        0.601     0.015    0.002    0.030

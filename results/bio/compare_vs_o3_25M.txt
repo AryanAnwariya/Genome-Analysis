@@ -1,0 +1,16 @@
+fast ARI/NMI match scikit-learn on all 10 clusterings
+INTERKR LINE order 3: ARI 0.4089 NMI 0.4660 timing eta2 0.638 NMI(chr) 0.0273 sizes [11678, 8977, 5570, 1]
+Pair-O/E LINE order 3: ARI 0.3292 NMI 0.4367 timing eta2 0.679 NMI(chr) 0.0232 sizes [9397, 6156, 4786, 4064, 1823]
+
+PAIRED DIFFERENCES = first minus second; 95 pct CI; * = interval excludes 0
+graph     method         minus baseline       | dARI                     | dNMI                     | d timing eta2           
+INTERKR   DeepWalk       minus LINE o3 25M    | -0.068 [-0.092,-0.044]* | -0.018 [-0.024,-0.010]* | +0.065 [+0.058,+0.074]*
+INTERKR   HOPE           minus LINE o3 25M    | +0.141 [-0.002,+0.251]  | +0.077 [+0.007,+0.166]* | -0.070 [-0.148,-0.023]*
+INTERKR   DW+HOPE        minus LINE o3 25M    | +0.117 [+0.013,+0.206]* | +0.078 [+0.027,+0.145]* | -0.006 [-0.036,+0.015] 
+INTERKR   LINE 1000M L2  minus LINE o3 25M    | +0.034 [-0.091,+0.120]  | +0.021 [-0.054,+0.100]  | -0.098 [-0.193,-0.037]*
+INTERKR   LINE o3 25M    minus LINE paper     | +0.360 [+0.336,+0.398]* | +0.406 [+0.392,+0.424]* | +0.508 [+0.495,+0.523]*
+Pair-O/E  DeepWalk       minus LINE o3 25M    | +0.099 [+0.077,+0.136]* | +0.090 [+0.081,+0.102]* | +0.033 [+0.027,+0.039]*
+Pair-O/E  HOPE           minus LINE o3 25M    | +0.287 [+0.232,+0.345]* | +0.188 [+0.162,+0.221]* | -0.041 [-0.054,-0.030]*
+Pair-O/E  DW+HOPE        minus LINE o3 25M    | +0.304 [+0.256,+0.355]* | +0.210 [+0.185,+0.239]* | -0.025 [-0.036,-0.014]*
+Pair-O/E  LINE 1000M L2  minus LINE o3 25M    | +0.222 [+0.153,+0.266]* | +0.123 [+0.100,+0.144]* | -0.037 [-0.050,-0.025]*
+Pair-O/E  LINE o3 25M    minus LINE paper     | +0.134 [+0.113,+0.156]* | +0.147 [+0.134,+0.160]* | +0.200 [+0.183,+0.214]*
