@@ -40,3 +40,42 @@ processor for genome contact data.
 ## Environment
 BITS Hyderabad HPC (Slurm). Python 3.10 env in `docs/genome_env.yml`.
 Scripts contain absolute paths for our cluster (`/scratch/adas/genome-analysis`); change them for other systems.
+
+---
+
+## Biological Validation — CTCF and RNAPII
+
+We extended the graph-embedding experiments with
+independent biological validation using CTCF and RNAPII
+ChIA-PET interaction datasets.
+
+The analysis compares HOPE, DeepWalk, LINE, and combined
+DeepWalk + HOPE predictions with Rao and published SCI
+sub-compartment labels.
+
+The main RNAPII experiment showed stronger
+distance-matched enrichment for several embedding
+approaches, particularly LINE. However, the results
+were sensitive to genomic separation, and the CTCF
+analysis did not demonstrate a clear advantage over Rao.
+
+**These findings do not establish overall superiority
+over the published SCI method.**
+
+Detailed documentation:
+
+- [Biological validation](docs/BIOLOGICAL_VALIDATION.md)
+- [Data provenance](docs/DATA_PROVENANCE.md)
+- [Full Hi-C archive inventory](docs/full_archive_inventory_429072.txt)
+
+Code:
+
+- `scripts/biological_validation/`
+
+Results:
+
+- `results/biological_validation/`
+- `results/gm12878_interkr_oe/eval/`
+
+The repository intentionally excludes large raw datasets
+and generated graph/embedding files.
