@@ -1,0 +1,77 @@
+=== FULL Hi-C ARCHIVE INVENTORY ===
+Archive: /scratch/adas/genome-analysis/data/GSE63525_GM12878_combined_interchromosomal_contact_matrices.tar.gz
+Compressed size: 35.01 GiB
+
+=== RESOLUTIONS ===
+Category                 Files    Uncompressed GiB
+100kb                    7,590               12.94
+10kb                     3,542               40.65
+1kb                      3,543               47.75
+1mb                      7,590                0.19
+250kb                    7,590                2.68
+25kb                     3,542               35.66
+500kb                    7,590                0.71
+50kb                     7,590               26.25
+5kb                      3,542               42.20
+
+=== MAPQ CATEGORIES ===
+Category                 Files    Uncompressed GiB
+MAPQG0                  26,059              123.34
+MAPQGE30                26,059               85.69
+OTHER                        1                0.00
+
+=== FILE TYPES ===
+Category                 Files    Uncompressed GiB
+GWKRnorm                 5,060                0.08
+GWVCnorm                 5,060                0.08
+INTERKRnorm              5,060                0.08
+INTERVCnorm              5,060                0.08
+KRnorm                   9,108                2.87
+RAWobserved              4,554              199.74
+SQRTVCnorm               9,108                3.04
+VCnorm                   9,108                3.05
+out                          1                0.00
+
+=== EXAMPLE RAW MATRICES ===
+
+100kb:
+  GM12878_combined_interchromosomal/100kb_resolution_interchromosomal/chr12_chr22/MAPQGE30/chr12_22_100kb.RAWobserved
+  GM12878_combined_interchromosomal/100kb_resolution_interchromosomal/chr12_chr22/MAPQG0/chr12_22_100kb.RAWobserved
+
+10kb:
+  GM12878_combined_interchromosomal/10kb_resolution_interchromosomal/chr12_chr22/MAPQGE30/chr12_22_10kb.RAWobserved
+  GM12878_combined_interchromosomal/10kb_resolution_interchromosomal/chr12_chr22/MAPQG0/chr12_22_10kb.RAWobserved
+
+1kb:
+  GM12878_combined_interchromosomal/1kb_resolution_interchromosomal/chr12_chr22/MAPQGE30/chr12_22_1kb.RAWobserved
+  GM12878_combined_interchromosomal/1kb_resolution_interchromosomal/chr12_chr22/MAPQG0/chr12_22_1kb.RAWobserved
+
+1mb:
+  GM12878_combined_interchromosomal/1mb_resolution_interchromosomal/chr12_chr22/MAPQGE30/chr12_22_1mb.RAWobserved
+  GM12878_combined_interchromosomal/1mb_resolution_interchromosomal/chr12_chr22/MAPQG0/chr12_22_1mb.RAWobserved
+
+250kb:
+  GM12878_combined_interchromosomal/250kb_resolution_interchromosomal/chr12_chr22/MAPQGE30/chr12_22_250kb.RAWobserved
+  GM12878_combined_interchromosomal/250kb_resolution_interchromosomal/chr12_chr22/MAPQG0/chr12_22_250kb.RAWobserved
+
+25kb:
+  GM12878_combined_interchromosomal/25kb_resolution_interchromosomal/chr12_chr22/MAPQGE30/chr12_22_25kb.RAWobserved
+  GM12878_combined_interchromosomal/25kb_resolution_interchromosomal/chr12_chr22/MAPQG0/chr12_22_25kb.RAWobserved
+
+500kb:
+  GM12878_combined_interchromosomal/500kb_resolution_interchromosomal/chr12_chr22/MAPQGE30/chr12_22_500kb.RAWobserved
+  GM12878_combined_interchromosomal/500kb_resolution_interchromosomal/chr12_chr22/MAPQG0/chr12_22_500kb.RAWobserved
+
+50kb:
+  GM12878_combined_interchromosomal/50kb_resolution_interchromosomal/chr12_chr22/MAPQGE30/chr12_22_50kb.RAWobserved
+  GM12878_combined_interchromosomal/50kb_resolution_interchromosomal/chr12_chr22/MAPQG0/chr12_22_50kb.RAWobserved
+
+5kb:
+  GM12878_combined_interchromosomal/5kb_resolution_interchromosomal/chr12_chr22/MAPQGE30/chr12_22_5kb.RAWobserved
+  GM12878_combined_interchromosomal/5kb_resolution_interchromosomal/chr12_chr22/MAPQG0/chr12_22_5kb.RAWobserved
+
+=== ARCHIVE TOTAL ===
+Total files: 52,119
+Total uncompressed size: 209.03 GiB
+
+ARCHIVE INVENTORY COMPLETED

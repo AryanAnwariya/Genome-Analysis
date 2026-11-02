@@ -1,0 +1,27 @@
+embedding files: results/gm12878_interkr_oe/gm12878_INTERKR_OE_weighted_deepwalk.embedding
+nodes clustered: 26743, dims: 100, k=5, seed=2, n_init=100, l2=True
+cluster sizes: [5252, 9939, 5306, 4212, 2034]
+kmeans inertia: 1120.4145
+silhouette (euclidean): 0.274897
+davies-bouldin: 1.299636
+vs Rao A1-B3 (26226 nodes): ARI=0.4286 NMI=0.5268
+vs SCI published (26226 nodes): ARI=0.3243 NMI=0.3802
+REFERENCE published SCI vs Rao (26226 bins): ARI=0.5027 NMI=0.5668
+
+Clusters vs Rao (A1-B3 nodes):
+rao        A1    A2    B1    B2    B3
+cluster                              
+0        3911   903   369     0     0
+1           0     1   111  3601  6135
+2           0  1185   888   725  2387
+3          89  3634   371     2    29
+4           6    91  1755    29     4
+
+Clusters vs SCI published:
+sci_pub    C1    C2    C3    C4    C5
+cluster                              
+0        3197  1287   647    51     1
+1          58   149    96  4268  5277
+2         276  1011   804  1207  1887
+3         669  2747   570   108    31
+4         173   201  1473    31     7

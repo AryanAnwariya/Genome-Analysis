@@ -1,0 +1,24 @@
+{
+  "input": "/scratch/adas/genome-analysis/data/chia_pet/prepared/4DNFIS9CCN6R.pet5.bedpe",
+  "output": "/scratch/adas/genome-analysis/results/chia_pet/4DNFIS9CCN6R.pet5.hg19.bedpe",
+  "chain": "/home/adas/genome-tools/liftover/hg38ToHg19.over.chain.gz",
+  "liftover": "/home/adas/genome-tools/liftover/liftOver_v479",
+  "min_match": 0.95,
+  "source_assembly": "hg38 (provisional)",
+  "target_assembly": "hg19",
+  "support_column": "column 7 (definition unverified)",
+  "length_ratio_filter": [
+    0.8,
+    1.25
+  ],
+  "statistics": {
+    "input_loops": 70042,
+    "input_anchors": 140084,
+    "mapped_anchor_records": 139890,
+    "loops_missing_anchor": 180,
+    "loops_cross_chromosome": 5,
+    "loops_large_length_change": 4,
+    "retained_loops": 69853,
+    "unmapped_anchor_records": 194
+  }
+}
