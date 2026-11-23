@@ -1,0 +1,29 @@
+GM12878 GENOMIC REGION LOOKUP
+============================
+
+Region: chr1:1000000
+Genomic bin:
+node: 10
+chrom: chr1
+start: 1000000
+end: 1100000
+
+RELATED CLASSIFICATION RECORDS
+------------------------------
+
+Table: membership
+Columns: node	method	label
+10	DW_HOPE_s1	0
+10	DW_HOPE_s2	3
+10	DW_HOPE_s3	0
+10	DeepWalk_s1	2
+10	DeepWalk_s2	0
+10	DeepWalk_s3	4
+10	HOPE_s1	3
+10	HOPE_s2	0
+10	HOPE_s3	1
+10	LINE1000M_l2each_s1	4
+10	LINE1000M_l2each_s2	1
+10	LINE1000M_l2each_s3	4
+10	Rao	A1
+10	SCI_published	C1

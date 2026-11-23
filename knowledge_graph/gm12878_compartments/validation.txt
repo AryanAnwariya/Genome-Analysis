@@ -1,0 +1,33 @@
+GM12878 KNOWLEDGE GRAPH VALIDATION
+==================================
+
+Database integrity: ok
+Foreign key violations: 0
+
+DATABASE TABLES
+---------------
+Table: bins
+Records: 28823
+Columns: node, chrom, start, end
+
+Table: compartments
+Records: 71
+Columns: method, label
+
+Table: membership
+Records: 373478
+Columns: node, method, label
+
+Table: metadata
+Records: 3
+Columns: key, value
+
+GENOMIC BINS
+------------
+Count: 28823
+
+TABLES MATCHING INITIAL CLASSIFICATION COUNT
+--------------------------------------------
+membership 373478
+
+FINAL STRUCTURAL VALIDATION: PASS
