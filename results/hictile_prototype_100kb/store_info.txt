@@ -1,0 +1,10 @@
+file	/scratch/adas/genome-analysis/results/hictile_prototype/gm12878_100kb_prototype.htl
+file_bytes	783063
+format_generation	1
+chromosomes	22
+bin_rule	juicer
+created	2026-11-23T22:07:30
+tool_version	0.2.0
+res 100000	bins=28823 tile=250 tiles=6 nnz=100000 compressed_bytes=87568 norms=NONE
+provenance.path	/scratch/adas/genome-analysis/results/hictile_prototype/contacts_100kb.tsv
+provenance.source	table

@@ -1,0 +1,2 @@
+bin1	bin2	chrom1	start1	chrom2	start2	raw	value
+19578	27987	chr12	6200000	chr22	16000000	1	1

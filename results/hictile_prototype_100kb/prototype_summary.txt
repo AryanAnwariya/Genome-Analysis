@@ -1,0 +1,51 @@
+GM12878 Hi-C QUERY PROCESSOR PROTOTYPE
+=====================================
+
+Dataset: GM12878
+Resolution: 100 kb
+Chromosome pair: chr12-chr22
+MAPQ: MAPQGE30
+Normalization: NONE
+
+HICTILE STORE
+-------------
+Version: 0.2.0
+Indexed chromosomes: 22
+Indexed genomic bins: 28823
+Imported contacts: 100000
+Nonempty tiles: 6
+Store size: 783063 bytes
+
+VALIDATED FUNCTIONALITY
+-----------------------
+POINT queries: PASS
+TOPK queries: PASS
+CONTACTS queries: PASS
+Source contact comparisons: PASS
+Genomic bin mapping: PASS
+
+EXAMPLE RESULTS
+---------------
+chr12:6200000 X chr22:16000000 = 1
+chr12:6400000 X chr22:24000000 = 36
+
+PERFORMANCE
+-----------
+See query_timings.txt for fresh measurements.
+These include Python startup time.
+
+LIMITATIONS
+-----------
+The prototype contains only 100000 contact records
+from one chromosome pair.
+
+It is not a genome-wide contact store.
+
+Raw counts are used without INTERKR normalization.
+
+TOPK results apply only to this imported subset.
+
+No clustering or graph embeddings are required.
+
+Large source data and the binary hictile store
+remain on HPC scratch storage.

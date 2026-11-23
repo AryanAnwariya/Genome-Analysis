@@ -1,0 +1,4 @@
+Wall-clock timings; includes Python startup
+POINT: 3.41 seconds
+TOPK: 1.05 seconds
+CONTACTS: 0.54 seconds

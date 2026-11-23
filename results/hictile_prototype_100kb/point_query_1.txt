@@ -1,0 +1,4 @@
+bin1	19578
+bin2	27987
+raw	1
+value	1
